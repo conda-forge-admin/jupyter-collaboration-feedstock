@@ -2,12 +2,12 @@
 schema_version: 1
 
 context:
-  version: "4.4.1"
-  lib_min: "2.4.1"
+  version: "4.4.2"
+  lib_min: "2.4.2"
   lib_max: "3"
   python_check_max: "3.14"
   jupyterlab_min: "4.5.0"
-  jupyterlab_max: "5.0"
+  jupyterlab_max: "4.6.0"
   grep: ${{ 'grep -iE' if unix else 'findstr /c' }}
 
 package:
@@ -16,7 +16,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jupyter-collaboration/jupyter_collaboration-${{ version }}.tar.gz
-  sha256: 62c7779cf7000ede21b5f0b503731e4dbab896b55e82491702d14ffaac41923f
+  sha256: 1b65993594b99575573c6fff120cf3b3d2a9efbc00dcbe91fc008e3141fb90c5
 
 build:
   number: 0

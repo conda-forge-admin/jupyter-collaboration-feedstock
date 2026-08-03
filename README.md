@@ -150,6 +150,7 @@ Feedstock Maintainers
 
 * [@conda-forge/jupyterlab](https://github.com/orgs/conda-forge/teams/jupyterlab/)
 * [@davidbrochart](https://github.com/davidbrochart/)
+* [@dlqqq](https://github.com/dlqqq/)
 * [@fcollonval](https://github.com/fcollonval/)
 * [@hbcarlos](https://github.com/hbcarlos/)
 * [@martinRenou](https://github.com/martinRenou/)
