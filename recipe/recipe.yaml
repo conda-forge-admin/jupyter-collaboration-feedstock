@@ -3,7 +3,8 @@ schema_version: 1
 
 context:
   version: "5.0.1"
-  lib_min: "3.0.0"
+  # thus far has been the case, but there appears to be no formal policy
+  lib_min: "3.0.${{ (version | split('.'))[-1] }}"
   lib_max: "4"
   python_check_max: "3.14"
   jupyterlab_min: "4.6.0"
