@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "5.0.1"
+  version: "5.0.2"
   # thus far has been the case, but there appears to be no formal policy
   lib_min: "3.0.${{ (version | split('.'))[-1] }}"
   lib_max: "4"
@@ -17,7 +17,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/j/jupyter-collaboration/jupyter_collaboration-${{ version }}.tar.gz
-  sha256: 6b46a1af5fc8d927e4596dc2b82bbdf41ba5273f42d9506bee68e505a2e27556
+  sha256: 9d75cff9ff07f77acfb3fb929b455697a450722005d76908375c7abbe583c74f
 
 build:
   number: 0
